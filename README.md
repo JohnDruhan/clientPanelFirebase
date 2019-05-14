@@ -29,6 +29,7 @@ Run
 
 Create a Firebase App and put the keys and secret in a .env file in the root of project. See the example below.
 
+```
 apiKey: "YourAPIKeyGoesHere",
     authDomain: "yourDomainGoesHere.firebaseapp.com",
     databaseURL: "https://yourDomainGoesHere.firebaseio.com",
@@ -36,8 +37,6 @@ apiKey: "YourAPIKeyGoesHere",
     storageBucket: "yourDomainGoesHere.appspot.com",
     messagingSenderId: "yourIDGoesHere",
     appId: "yourIDGoesHere"
-```
-
 ```
 
 Once all of the dependencies have been installed you can launch the app with
