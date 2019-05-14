@@ -3,7 +3,7 @@ A React Solution that also uses firebase and redux
 
 ## Project Purpose:
 
-This project was built to practice my ReactJS, Redux and Firebase Skill. It help admin to store their clients detail with full CRUD funtionalities. The project use Redux for state management and Firebase firestore to store data at backend.
+This project was built with ReactJS, Redux and Firebase. It helps admins to store their clients details with full CRUD funtionalities. The project uses Redux for state management and Firebase Firestore to store data on the backend.
 
 ## Tools and Skills Used
 1. ReactJS
@@ -16,7 +16,7 @@ This project was built to practice my ReactJS, Redux and Firebase Skill. It help
 
 ## How to Load the App
 
-You can run a hosted version of the app here: TBT
+You can run a hosted version of the app here: https://clientpanel-970d4.firebaseapp.com/login
 
 The project uses Node.js and the Create-React-App starter. If you do not have Node >= 6.x installed, you can download it here: [Node.js](https://nodejs.org/en/)
 
@@ -27,7 +27,7 @@ Run
 'npm install'
 ```
 
-Create a Firebase App and put the keys and secret in a .env file in the root of project. See the example below.
+Create a Firebase App. Go to Settings and put the api keys and id's in the fbConfig.js file in the root of project. See the example below:
 
 ```
 apiKey: "YourAPIKeyGoesHere",
